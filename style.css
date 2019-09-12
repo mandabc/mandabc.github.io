@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(214, 133, 103);
+    display: grid;
+}
+.top {
+    background-color: rgb(214, 133, 103);
+    width: 100vw;
+    height: 14vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40px 100px;
+    grid-row-gap: 1em;
+    grid-column-gap: 1em; 
+}
+
+.search {
+    background-color: rgb(201, 90, 57);
+    height: 5vh;
+    width: 2vw;
+    margin-top: 2%;
+    margin-inline-start: 12px;
+   
+}
+.logo {
+    background-color: rgb(181, 131, 16);
+    height: 5vh;
+    width: 8vw;
+    margin-top: 2%;
+    margin-inline-start: 150px;
+}
+.bars {
+    background-color: rgb(201, 105, 9);
+    height: 5vh;
+    width: 4vw;
+    margin-top: 2%;
+    margin-inline-start: 375px;
+}
+.middle {
+    background-color: rgb(214, 133, 103);
+    width: 100vw;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40px 100px;
+    grid-row-gap: 1em;
+    grid-column-gap: 1em; 
+    margin-top: 60px;
+}
+.info {
+    background-color: rgb(196, 100, 29);
+    height: 40vh;
+    width: 33vw;
+    margin-top: 14%;
+    margin-inline-start: 75px;
+   
+}
+.tabs {
+    background-color: rgb(163, 73, 32);
+    height: 12vh;
+    width: 2vw;
+    margin-top: 17%;
+    margin-inline-start: 803px;
+   
+}
+
+.scroll {
+    background-color: rgb(203, 125, 34);
+    height: 4vh;
+    width: 10vw;
+    margin-top: 12%;
+    margin-inline-start: 630px;
+}

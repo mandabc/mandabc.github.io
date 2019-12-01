@@ -1,5 +1,89 @@
+
+
 body {
-    background-color: green;
-    display: grid;
-    grid-template-columns: auto;
+    margin: 0%;
+    padding: 0%;
+    width: auto;
+    max-width: 100%;
+    max-height: auto;
+    
 }
+#header {
+    width: 75vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 56vw;
+    grid-template-rows: 7vw;
+    padding-bottom: 20vh;
+
+}
+.logo {
+    width: 35vw;
+    padding-left: .5vw;
+   
+}
+.picture {
+    width: 35vw;
+    height: 150vh;
+}
+h1 {
+    font-family: bd-colonius, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10vh;
+    padding-left: 42vw;
+}
+#first {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 30vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 10vw;
+    padding-top: 10vh;
+    padding-bottom: 10vw;
+ 
+}
+
+.ryanne {
+    width: auto;
+    max-width: 100%;
+    max-height: auto;
+}
+
+#second {
+    width: 75vw;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 1vw;
+    grid-template-columns: 7vw;
+    padding-right: 50vw;
+    padding-top: -76vh;
+
+ 
+}
+
+#third {
+    width: 75vw;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 1vw;
+    grid-template-columns: 7vw;
+    padding-left: 10vw;
+    padding-top: 24vh;
+    padding-bottom: 10vh;
+ 
+}
+
+#fourth {
+    width: 75vw;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-row-gap: 1vw;
+    grid-template-columns: 7vw;
+    padding-left: 10vw;
+    padding-top: 24vh;
+    padding-bottom: 10vh;
+ 
+}
+
+

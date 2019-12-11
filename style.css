@@ -1,440 +1,828 @@
 
-body {
-    margin: 0%;
-    padding: 0%;
-    max-width: 100%;
-    height: auto;
-}
+    body {
+        margin: 0%;
+        padding: 0%;
+        max-width: 100%;
+        height: auto;
+    }
 
-#header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 57vw;
-    grid-template-rows: 7vw;
-    padding-bottom: 20vh;
-    padding-top: .25vh;
+    img {
+        max-width: 100%;
+    }
 
-}
-.logo {
-    width: 35vw;
-    padding-left: .5vw;
-   
-}
-.picture {
-    width: 35vw;
-    height: 150vh;
-    padding-top: .35vh;
+    #header {
+        display: grid;
+        grid-template-columns: 1fr 5fr 1fr;
+        margin: 5px;
+    }
+
+
+    h1 {
+        font-family: bd-colonius, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 10vh;
+        padding-left: 42vw;
+    }
+    #first {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 2vw;
+        padding-left: 5vw;
+        padding-top: 10vh;
+        padding-bottom: 14vh;
     
-}
-h1 {
-    font-family: bd-colonius, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 10vh;
-    padding-left: 42vw;
-}
-#first {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 2vw;
-    padding-left: 5vw;
-    padding-top: 10vh;
-    padding-bottom: 14vh;
- 
-}
-#second {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 2vw;
-    padding-left: 20vw;
-    padding-bottom: 14vh;
+    }
+    #second {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 2vw;
+        padding-left: 20vw;
+        padding-bottom: 14vh;
+        
+
+    }
+    #third {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 2vw;
+        padding-left: 6vw;
+        padding-bottom: 14vh;
+        
+
+    }
+    #homelogo {
+        grid-template-columns: 1fr;
+        padding-left: 69vw;
+        padding-top: 43vh;
+    }
+
+    .blueoverlap {
+        display: grid;
+        grid-template-columns: 1fr .3fr 1fr;
+        grid-template-rows: 60px 550px;
+        width: 60vw;
+        margin: auto;
+        margin-top: 6%;
+        margin-bottom: 10vw;
+    }
+    .blue {
+        background-color:#486895;
+    }
+    .wide {
+        grid-column: span 2;
+    }
+
+    .wide img{
+        width: 100%;
+    }
+
+
+    #title {
+        font-family: nimbus-sans-condensed, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: white;
+        margin-top: 80%;
+        font-size: 2.5em;
+        padding-left: 5%;
+
+    }
+    #date {
+        font-family: nimbus-sans-extended, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: white;
+        margin-top: -15%;
+        padding-left: 5%;
+    }
+    #info{
+        font-family: nimbus-sans, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        margin-top: 20%;
+        padding-left: 5%;
+    }
+
+    .hunteroverlap {
+        display: grid;
+        grid-template-columns: 1fr .5fr 1fr;
+        grid-template-rows: 70px 550px;
+        width: 60vw;
+        margin: auto;
+        margin-top: 6%;
+        margin-bottom: 9vw;
+    }
+    .thesis {
+        background-color: #5F6535;
+        
+    }
+    .wide {
+        grid-column: span 2;
+    }
+
+    .wide img{
+        width: 100%;
+    }
+
+    #title2 {
+        font-family: nimbus-sans-condensed, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: white;
+        margin-top: 80%;
+        font-size: 2.5em;
+        padding-left: 5%;
+    }
+    #date2 {
+        font-family: nimbus-sans-extended, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: white;
+        margin-top: -15%;
+        padding-left: 5%;
+    }
+    #info2 {
+        font-family: nimbus-sans, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        margin-top: 20%;
+        padding-left: 5%;
+        
+    }
+    .pinkoverlap {
+        display: grid;
+        grid-template-columns: 1fr .5fr 1fr;
+        grid-template-rows: 40px 370px;
+        width: 66vw;
+        margin: auto;
+        margin-top: 6%;
+        margin-bottom: 19vw;
+    }
+    .thames {
+        background-color: #A83E69;    
+    }
+    .wide {
+        grid-column: span 2;
     
+    }
 
-}
-#third {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 2vw;
-    padding-left: 6vw;
-    padding-bottom: 14vh;
+    .wide img{
+        width: 100%;
+    }
+
+    #title3 {
+        font-family: nimbus-sans-condensed, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: white;
+        margin-top: 50%;
+        font-size: 2em;
+        padding-left: 3%;
+    }
+    #date3 {
+        font-family: nimbus-sans-extended, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: rgb(255, 251, 251);
+        margin-top: -10%;
+        padding-left: 3%;
+    }
+    #info3 {
+        font-family: nimbus-sans, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(255, 255, 255);
+        margin-top: 17%;
+        padding-left: 3%;
+    }
+    .threeimages {
+        height: 10vh;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 36vw;
+        margin: auto;
+        margin-top: 1%;
+    }
+    .grayoverlap {
+        display: grid;
+        grid-template-columns: 1fr .5fr 1fr;
+        grid-template-rows: 50px 310px;
+        width: 76vw;
+        margin: auto;
+        margin-top: 6%;
+        padding-bottom: 20vw;
+    }
+    .coffee {
+        background-color:#938B8D;
+    }
+    .wide {
+        grid-column: span 2;
+    }
+
+    .wide img{
+        width: 100%;
+    }
+
+    #title4 {
+        font-family: nimbus-sans-condensed, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: white;
+        margin-top: 25%;
+        font-size: 2em;
+        padding-left: 3%;
+    }
+    #date4 {
+        font-family: nimbus-sans-extended, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: rgb(255, 251, 251);
+        margin-top: -10%;
+        padding-left: 3%;
+    }
+    #info4 {
+        font-family: nimbus-sans, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(255, 255, 255);
+        margin-top: 17%;
+        padding-left: 3%;
+    }
+    .threeimages2 {
+        height: 10vh;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        width: 42vw;
+        margin: auto;
+        margin-top: 1%;
+    }
+    .plumoverlap {
+        display: grid;
+        grid-template-columns: 1fr .3fr 1fr;
+        grid-template-rows: 47px 390px;
+        width: 60vw;
+        margin: auto;
+        margin-top: 6%;
+        padding-bottom: 15vw;
+        
+    }
+    .paul {
+        background-color: #CC9410;
+    }
+    .wide {
+        grid-column: span 2;
+    }
+
+    .wide img{
+        width: 100%;
+    }
+
+    #title5 {
+        font-family: nimbus-sans-condensed, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: white;
+        margin-top: 43%;
+        font-size: 2em;
+        padding-left: 3%;
+    }
+    #date5 {
+        font-family: nimbus-sans-extended, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: rgb(255, 251, 251);
+        margin-top: -10%;
+        padding-left: 3%;
+    }
+    #info5 {
+        font-family: nimbus-sans, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(255, 255, 255);
+        margin-top: 17%;
+        padding-left: 3%;
+    }
+    .threeimages3 {
+        height: 10vh;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 32vw;
+        margin: auto;
+        margin-top: 1%;
+    }
+    .orangeoverlap {
+        display: grid;
+        grid-template-columns: 1fr .3fr 1fr;
+        grid-template-rows: 47px 430px;
+        width: 65vw;
+        margin: auto;
+        margin-top: 6%;
+        padding-bottom: 20vw;
     
+        
+    }
+    .comp {
+        background-color: #EA6B0B;
+    }
+    .wide {
+        grid-column: span 2;
+    }
 
-}
-#homelogo {
-    grid-template-columns: 1fr;
-    padding-left: 69vw;
-    padding-top: 43vh;
-}
+    .wide img{
+        width: 100%;
+    }
 
-#ryanne {
-    grid-template-columns: 1fr;
-    padding-left: 20vw;
-    margin-top: -490px;
+    #title6 {
+        font-family: nimbus-sans-condensed, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: white;
+        margin-top: 43%;
+        font-size: 2em;
+        padding-left: 3%;
+    }
+    #date6 {
+        font-family: nimbus-sans-extended, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: rgb(255, 251, 251);
+        margin-top: -10%;
+        padding-left: 3%;
+    }
+    #info6 {
+        font-family: nimbus-sans, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(255, 255, 255);
+        margin-top: 17%;
+        padding-left: 3%;
+    }
+    .threeimages4 {
+        height: 10vh;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 55vw;
+        margin: auto;
+        margin-top: 1%;
+    }
+    .cobaltoverlap {
+        display: grid;
+        grid-template-columns: 1fr .3fr 1fr;
+        grid-template-rows: 57px 560px;
+        width: 53vw;
+        margin: auto;
+        margin-top: 6%;
+        padding-bottom: 10vw;
+    
+        
+    }
+    .jazz {
+        background-color: #486895;
+    }
+    .wide {
+        grid-column: span 2;
+    }
+
+    .wide img{
+        width: 100%;
+    }
+
+    #title7 {
+        font-family: nimbus-sans-condensed, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: white;
+        margin-top: 95%;
+        font-size: 2em;
+        padding-left: 3%;
+    
+    }
+    #date7 {
+        font-family: nimbus-sans-extended, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: rgb(255, 251, 251);
+        margin-top: -10%;
+        padding-left: 3%;
+    }
+    #info7 {
+        font-family: nimbus-sans, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(255, 255, 255);
+        margin-top: 17%;
+        padding-left: 3%;
+    }
+    .maroonoverlap {
+        display: grid;
+        grid-template-columns: 1fr .3fr 1fr;
+        grid-template-rows: 47px 550px;
+        width: 53vw;
+        margin: auto;
+        margin-top: 6%;
+    height: 30vh;
+        
+    }
+    .autumn {
+        background-color: #823DA7;
+    }
+    .wide {
+        grid-column: span 2;
+    }
+
+    .wide img{
+        width: 100%;
+    }
+
+    #title8 {
+        font-family: nimbus-sans-condensed, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: white;
+        margin-top: 95%;
+        font-size: 2em;
+        padding-left: 3%;
+    }
+    #date8 {
+        font-family: nimbus-sans-extended, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: rgb(255, 251, 251);
+        margin-top: -10%;
+        padding-left: 3%;
+    }
+    #info8 {
+        font-family: nimbus-sans, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(255, 255, 255);
+        margin-top: 17%;
+        padding-left: 3%;
+    }
+    .smokeoverlap {
+        display: grid;
+        grid-template-columns: 1fr .3fr 1fr;
+        grid-template-rows: 87px 320px;
+        width: 69vw;
+        margin: auto;
+        margin-top: 6%;
+        height: 30vh;
+        padding-bottom: 30vw;
+        
+    }
+    .oris {
+        background-color: rgb(32, 125, 179);
+    }
+    .wide {
+        grid-column: span 2;
+    }
+
+    .wide img{
+        width: 100%;
+    }
+
+    #title9 {
+        font-family: nimbus-sans-condensed, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: white;
+        margin-top: 20%;
+        font-size: 2em;
+        padding-left: 3%;
+    }
+    #date9 {
+        font-family: nimbus-sans-extended, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: rgb(255, 251, 251);
+        margin-top: -10%;
+        padding-left: 3%;
+    }
+    #info9 {
+        font-family: nimbus-sans, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(255, 255, 255);
+        margin-top: 17%;
+        padding-left: 3%;
+    }
+
+    .mainoverlap {
+        display: grid;
+        grid-template-columns: 1fr .3fr 1fr;
+        grid-template-rows: 360px 820px;
+        width: 59vw;
+        margin: auto;
+        margin-top: 10%;
+        height: 30vh;
+        padding-bottom: 30vw;
+        
+    }
+    .biospace {
+        background-color: rgb(32, 125, 179);
+    }
+    .wide {
+        grid-column: span 2;
+    }
+
+    .wide img{
+        width: 100%;
+    }
+
+    .amanda {
+        margin-top: -19vw;
+    }
+
+    .bio {
+        font-family: bd-colonius, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-top: -15vw;
+        font-size: 15vh;
+        margin-left: 5vw;
+        color: #449EAB;
+    }
+    .behance {
+        margin-top: 4vw;
+        margin-left: 4vw;
+    }
+    .name {
+        font-family: bd-colonius, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-top: -16vw;
+        font-size: 5vh;
+        margin-left: 2vw;
+        color: rgb(255, 255, 255);
+    }
+    .email {
+        font-family: nimbus-sans, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        margin-top: 13vw;
+        font-size: 2vh;
+        margin-left: -1vw;
+        color: black;
+    }
+    .address {
+        font-family: nimbus-sans, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-top: -1vw;
+        font-size: 2.5vh;
+        margin-left: -1vw;
+        color: black;
+    }
+    .personalinfo {
+        font-family: nimbus-sans, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-top: 1vw;
+        font-size: 1.5vh;
+        margin-left: -1vw;
+        color: black;
+    }
+
+  
+@media only screen and (max-width: 800px)  {
+
+    h1 {
+        font-family: bd-colonius, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 5vh;
+        padding-left: 37vw;
+    }
+    #first {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 4vw;
+        padding-top: 5vh;
+        padding-bottom: 7vh;
+        padding-right: 4vw;
+    
+    }
+    #second {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 4vw;
+        padding-top: 2vh;
+        padding-bottom: 7vh;
+        padding-right: 4vw;
+    
+    }
+    #third {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 4vw;
+        padding-top: 2vh;
+        padding-bottom: 7vh;
+        padding-right: 4vw;
+    
+    }
+
+    .blueoverlap{
+        grid-template-columns: .25fr .85fr;
+        grid-template-rows: 10px 0px 352px;
+
+    }
+
+    .bluetext {
+        grid-column-start: 2;
+    }
+    #title {
+        padding-top: 10;
+        margin-top: -10vw;
+    }
+    #date {
+        font-family: nimbus-sans-extended, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: white;
+        margin-top: -25%;
+        padding-left: 5%;
+    }
+    .hunteroverlap{
+        grid-template-columns: .55fr .75fr;
+        grid-template-rows: 10px 0px 315px;
+
+    }
+
+    .thesistext {
+        grid-column-start: 2;
+    }
+    #title2 {
+        padding-top: -13;
+        margin-top: -10vw;
+    }
+    #date2 {
+        font-family: nimbus-sans-extended, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: white;
+        margin-top: -5vh;
+        padding-left: 5%;
+    }
+    .pinkoverlap{
+        grid-template-columns: .55fr .75fr;
+        grid-template-rows: 10px 0px 320px;
+
+    }
+
+    .thamestext {
+        grid-column-start: 2;
+    }
+    #title3 {
+        padding-top: -13;
+        margin-top: -10vw;
+    }
+    #date3 {
+        font-family: nimbus-sans-extended, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: white;
+        margin-top: -22%;
+        padding-left: 5%;
+    }
+    .threeimagesone {
+        height: 10vh;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 65vw;
+        margin: auto;
+        margin-top: 1%;
+
+    }
+    .grayoverlap{
+        grid-template-columns: .5fr .5fr;
+        grid-template-rows: 10px 0px 280px;
+
+    }
+
+    .coffeetext {
+        grid-column-start: 2;
+    }
+    #title4 {
+        padding-top: -13;
+        margin-top: -10vw;
+    }
+    #date4 {
+        font-family: nimbus-sans-extended, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: white;
+        margin-top: -20%;
+        padding-left: 5%;
+    }
+    .threeimagestwo {
+        height: 10vh;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 115vw;
+        margin: auto;
+        margin-top: 1%;
+
+    }
+    .plumoverlap{
+        grid-template-columns: .25fr .75fr;
+        grid-template-rows: 10px 0px 310px;
+
+    }
+
+    .paultext {
+        grid-column-start: 2;
+    }
+    #title5 {
+        padding-top: -13;
+        margin-top: -7vw;
+    }
+    #date5 {
+        font-family: nimbus-sans-extended, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: white;
+        margin-top: -16%;
+        padding-left: 5%;
+    }
+    .threeimagesthree {
+        height: 10vh;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 50vw;
+        margin: auto;
+        margin-top: 1%;
+
+    }
+    .orangeoverlap{
+        grid-template-columns: .25fr .75fr;
+        grid-template-rows: 10px 0px 420px;
+
+    }
+
+    .comptext {
+        grid-column-start: 2;
+    }
+    #title6 {
+        padding-top: -3vh;
+        margin-top: -10vw;
+    }
+    #date6 {
+        font-family: nimbus-sans-extended, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: white;
+        margin-top: -16%;
+        padding-left: 5%;
+    }
    
-  
-}
-#bluesquare {
-    width: 550px;
-    height: 550px;
-    background: #496793;
-    margin-left: 45vw;
 
+    .threeimagesfour {
+        height: 10vh;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 97vw;
+        margin: auto;
+        margin-top: 1%;
 
-}
-#title {
-    font-family: nimbus-sans-condensed, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    margin-top: -28vw;
-    font-size: 7vh;
-    margin-left: 50vw;
-    color: white;
-}
-#date {
-    font-family: nimbus-sans-extended, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    margin-top: -4vw;
-    font-size: 3vh;
-    margin-left: 50vw;
-    color: white;
-}
-#info{
-    font-family: nimbus-sans, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin-top: 6vw;
-    font-size: 3vh;
-    margin-left: 50vw;
-    color: white;
-}
+    }
+    .cobaltoverlap{
+        grid-template-columns: .25fr .75fr;
+        grid-template-rows: 10px 0px 420px;
 
-#thesis {
-    grid-template-columns: 1fr;
-    padding-left: 16vw;
-    margin-top: -490px;
+    }
+
+    .comptext {
+        grid-column-start: 2;
+    }
+    #title6 {
+        padding-top: -3vh;
+        margin-top: -10vw;
+    }
+    #date6 {
+        font-family: nimbus-sans-extended, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: white;
+        margin-top: -16%;
+        padding-left: 5%;
+    }
    
-  
-}
-#maroonsquare {
-    width: 550px;
-    height: 550px;
-    background: #5F6535;
-    margin-left: 45vw;
-
 
 }
-#plumsquare {
-    width: 550px;
-    height: 650px;
-    background: #CB4658;
-    margin-left: 45vw;
-
-
-}
-#thames {
-    grid-template-columns: 1fr;
-    padding-left: 10vw;
-    margin-top: -590px;
-   
-  
-}
-#title2 {
-    font-family: nimbus-sans-condensed, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    margin-top: -21vw;
-    font-size: 7vh;
-    margin-left: 50vw;
-    color: white;
-}
-#date2 {
-    font-family: nimbus-sans-extended, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    margin-top: -4vw;
-    font-size: 3vh;
-    margin-left: 50vw;
-    color: white;
-}
-#info2 {
-    font-family: nimbus-sans, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin-top: 7vw;
-    font-size: 3vh;
-    margin-left: 50vw;
-    color: white;
-}
-#thames2 {
-    grid-template-columns: 1fr;
-    padding-left: 4vw;
-    margin-top: -7px;
-   
-  
-}
-#thames3 {
-    grid-template-columns: 1fr;
-    padding-left: 19vw;
-    margin-top: -184px;
-   
-  
-}
-#thames4 {
-    grid-template-columns: 1fr;
-    padding-left: 35vw;
-    margin-top: -184px;
-   
-  
-}
-#coffee {
-    grid-template-columns: 1fr;
-    padding-left: 4vw;
-    margin-top: -490px;
-   
-  
-}
-#coffee3 {
-    grid-template-columns: 1fr;
-    padding-left: 5vw;
-    margin-top: -155px;
-   
-  
-}
-#coffee2 {
-    grid-template-columns: 1fr;
-    padding-left: 27vw;
-    margin-top: -10px;
-   
-  
-}
-#smokesquare {
-    width: 550px;
-    height: 550px;
-    background: #938B8D;
-    margin-left: 45vw;
-
-
-}
-#blossomsquare {
-    width: 550px;
-    height: 600px;
-    background: #B75D91;
-    margin-left: 45vw;
-
-
-}
-#paul {
-    grid-template-columns: 1fr;
-    padding-left: 11vw;
-    margin-top: -540px;
-   
-  
-}
-#paul2 {
-    grid-template-columns: 1fr;
-    padding-left: 16vw;
-    margin-top: -7px;
-   
-  
-}
-#paul3 {
-    grid-template-columns: 1fr;
-    padding-left: 27vw;
-    margin-top: -102px;
-   
-  
-}
-#paul4 {
-    grid-template-columns: 1fr;
-    padding-left: 38vw;
-    margin-top: -102px;
-   
-  
-}
-#title3 {
-    font-family: nimbus-sans-condensed, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    margin-top: -19vw;
-    font-size: 6vh;
-    margin-left: 50vw;
-    color: white;
-}
-#orangesquare {
-    width: 550px;
-    height: 750px;
-    background:#EA6B0B;
-    margin-left: 45vw;
-
-
-}
-#comp {
-    grid-template-columns: 1fr;
-    padding-left: 8vw;
-    margin-top: -690px;
-}
-
-#comp2 {
-    grid-template-columns: 1fr;
-    padding-left: 19vw;
-    margin-top: -8px;
-       
-      
-}
-#comp3 {
-    grid-template-columns: 1fr;
-    padding-left: 34vw;
-    margin-top: -205px;
-       
-      
-}
-#cobaltsquare {
-    width: 550px;
-    height: 550px;
-    background:#2D8CB0;
-    margin-left: 45vw;
-
-
-}
-#jazz {
-    grid-template-columns: 1fr;
-    padding-left: 21vw;
-    margin-top: -490px;
-}
-#title4 {
-    font-family: nimbus-sans-condensed, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    margin-top: -27vw;
-    font-size: 6vh;
-    margin-left: 50vw;
-    color: white;
-}
-#date4 {
-    font-family: nimbus-sans-extended, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    margin-top: -4vw;
-    font-size: 3vh;
-    margin-left: 50vw;
-    color: white;
-}
-#purplesquare {
-    width: 550px;
-    height: 550px;
-    background: #595588;
-    margin-left: 45vw;
-
-
-}
-#autumn {
-    grid-template-columns: 1fr;
-    padding-left: 23vw;
-    margin-top: -490px;
-}
-#ashensquare {
-    width: 550px;
-    height: 550px;
-    background: #557788;
-    margin-left: 45vw;
-
-
-}
-#oris {
-    grid-template-columns: 1fr;
-    padding-left: 14vw;
-    margin-top: -520px;
-} 
-#oris2 {
-    grid-template-columns: 1fr;
-    padding-left: 16vw;
-    margin-top: -7px;
-   
-  
-}
-#oris3 {
-    grid-template-columns: 1fr;
-    padding-left: 27vw;
-    margin-top: -105px;
-   
-  
-}
-#oris4 {
-    grid-template-columns: 1fr;
-    padding-left: 38vw;
-    margin-top: -105px;
-   
-  
-} 
-#tealsquare {
-    width: 650px;
-    height: 350px;
-    background: #449EAB;
-    margin-left: 45vw;
-    margin-top: -30vh;
-
-
-}
-
-#bio {
-    font-family: bd-colonius, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin-top: 1vw;
-    font-size: 10vh;
-    margin-left: 20vw;
-    color: #449EAB;
-}
-#behance {
-    grid-template-columns: 1fr;
-    padding-left: 40vw;
-    margin-top: -230px;
-} 
-#amanda {
-    grid-template-columns: 1fr;
-    padding-left: 20vw;
-    margin-top: 120px;
-} 
-#name {
-    grid-template-columns: 1fr;
-    font-family: bd-colonius, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin-top: -61vw;
-    font-size: 8vh;
-    margin-left: 51vw;
-    color: rgb(255, 255, 255);
-}
-#email {
-    font-family: nimbus-sans, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin-top: 7vw;
-    font-size: 3vh;
-    margin-left: 50vw;
-    color: black;
-}
-#personalinfo {
-    font-family: nimbus-sans, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin-top: 7vw;
-    font-size: 3vh;
-    margin-left: 50vw;
-    color: black;
-}
-
-  
-
-
-
-
-
-
-
-
-

@@ -214,7 +214,7 @@
         display: grid;
         grid-template-columns: 1fr .5fr 1fr;
         grid-template-rows: 50px 310px;
-        width: 76vw;
+        width: 68vw;
         margin: auto;
         margin-top: 6%;
         padding-bottom: 20vw;
@@ -260,7 +260,7 @@
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-        width: 42vw;
+        width: 40vw;
         margin: auto;
         margin-top: 1%;
     }
@@ -521,7 +521,7 @@
         display: grid;
         grid-template-columns: 1fr .3fr 1fr;
         grid-template-rows: 360px 820px;
-        width: 59vw;
+        width: 62vw;
         margin: auto;
         margin-top: 10%;
         height: 30vh;
@@ -540,7 +540,7 @@
     }
 
     .amanda {
-        margin-top: -19vw;
+        margin-top: -18vw;
     }
 
     .bio {
@@ -561,8 +561,8 @@
         font-weight: 400;
         font-style: normal;
         margin-top: -16vw;
-        font-size: 5vh;
-        margin-left: 2vw;
+        font-size: 2.5em;
+        margin-left: 1vw;
         color: rgb(255, 255, 255);
     }
     .email {
@@ -570,8 +570,7 @@
         font-weight: 700;
         font-style: normal;
         margin-top: 13vw;
-        font-size: 2vh;
-        margin-left: -1vw;
+        font-size: .5em;
         color: black;
     }
     .address {
@@ -579,8 +578,7 @@
         font-weight: 400;
         font-style: normal;
         margin-top: -1vw;
-        font-size: 2.5vh;
-        margin-left: -1vw;
+        font-size: .5em;
         color: black;
     }
     .personalinfo {
@@ -588,8 +586,7 @@
         font-weight: 400;
         font-style: normal;
         margin-top: 1vw;
-        font-size: 1.5vh;
-        margin-left: -1vw;
+        font-size: .4em;
         color: black;
     }
 
@@ -602,6 +599,7 @@
         font-style: normal;
         font-size: 5vh;
         padding-left: 37vw;
+
     }
     #first {
         display: grid;
@@ -709,7 +707,7 @@
     }
     .grayoverlap{
         grid-template-columns: .5fr .5fr;
-        grid-template-rows: 10px 0px 280px;
+        grid-template-rows: 10px 0px 255px;
 
     }
 
@@ -733,13 +731,13 @@
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
-        width: 115vw;
+        width: 102vw;
         margin: auto;
         margin-top: 1%;
 
     }
     .plumoverlap{
-        grid-template-columns: .25fr .75fr;
+        grid-template-columns: .15fr .85fr;
         grid-template-rows: 10px 0px 310px;
 
     }
@@ -803,19 +801,19 @@
 
     }
     .cobaltoverlap{
-        grid-template-columns: .25fr .75fr;
-        grid-template-rows: 10px 0px 420px;
+        grid-template-columns: .25fr .85fr;
+        grid-template-rows: 10px 0px 331px;
 
     }
 
-    .comptext {
+    .jazztext {
         grid-column-start: 2;
     }
-    #title6 {
+    #title7 {
         padding-top: -3vh;
         margin-top: -10vw;
     }
-    #date6 {
+    #date7 {
         font-family: nimbus-sans-extended, sans-serif;
         font-weight: 300;
         font-style: normal;
@@ -823,6 +821,142 @@
         margin-top: -16%;
         padding-left: 5%;
     }
+    .maroonoverlap{
+        grid-template-columns: .55fr 1fr;
+        grid-template-rows: 10px 0px 320px;
+
+    }
+
+    .autumntext {
+        grid-column-start: 2;
+    }
+    #title8 {
+        padding-top: -3vh;
+        margin-top: -10vw;
+    }
+    #date8 {
+        font-family: nimbus-sans-extended, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: white;
+        margin-top: -16%;
+        padding-left: 5%;
+    }
+    .smokeoverlap{
+        grid-template-columns: .55fr 1fr;
+        grid-template-rows: 10px 0px 290px;
+
+    }
+
+    .oristext {
+        grid-column-start: 2;
+    }
+    #title9 {
+        padding-top: -3vh;
+        margin-top: -10vw;
+    }
+    #date9 {
+        font-family: nimbus-sans-extended, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: white;
+        margin-top: -16%;
+        padding-left: 5%;
+    }
+
+    .threeimagesfive {
+        height: 10vh;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 65vw;
+        margin: auto;
+        margin-top: 1%;
+
+    }
+    .mainoverlap{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 10px 0px 890px;
+
+    }
+    .biotext {
+        font-family: bd-colonius, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-top: -5vw;
+        font-size: 7vh;
+        
+    }
+    .behancetwo {
+        margin-top: 17vw;
+    }
+    .amandatwo {
+        margin-top: 19vw;
+    }
+    .nametwo {
+        margin-top: -140vw;;
+    }
+    .emailtwo{
+        margin-top: -2vw;
+        font-size: .5em;
+    }
+    .addresstwo{
+        margin-top: -5vw;
+    }
+    .personalinfotwo {
+        font-size: .5em;
+    }
+ 
+ 
    
 
-}
+    }
+
+    @media only screen and (min-width: 800px) and (max-width: 1280px) {
+
+        h1 {
+            font-size: 5vh;
+            padding-right: 7vw;
+    
+        }
+        #first {
+            display: grid;
+            grid-template-rows: 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-column-gap: 2vw;
+          
+            padding-top: 10vh;
+            padding-bottom: 14vh;
+        
+        }
+        #second {
+            display: grid;
+            grid-template-rows: 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-column-gap: 2vw;
+            padding-left: 20vw;
+            padding-bottom: 14vh;
+        
+        }
+        #third {
+            display: grid;
+            grid-template-rows: 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-column-gap: 2vw;
+            padding-left: 6vw;
+            padding-bottom: 14vh;
+        
+        }
+        .amandathree {
+            margin-top: -33vw;
+        }
+        .emailthree{
+            margin-top: 6vw;
+            font-size: .5em;
+        }
+
+    
+
+
+    }
+                

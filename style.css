@@ -64,7 +64,7 @@
         display: grid;
         grid-template-columns: 1fr .3fr 1fr;
         grid-template-rows: 60px 550px;
-        width: 60vw;
+        width: 63vw;
         margin: auto;
         margin-top: 6%;
         margin-bottom: 10vw;
@@ -88,7 +88,7 @@
         color: white;
         margin-top: 80%;
         font-size: 2.5em;
-        padding-left: 5%;
+        padding-left: 3%;
 
     }
     #date {
@@ -96,8 +96,8 @@
         font-weight: 300;
         font-style: normal;
         color: white;
-        margin-top: -15%;
-        padding-left: 5%;
+        margin-top: -13%;
+        padding-left: 3%;
     }
     #info{
         font-family: nimbus-sans, sans-serif;
@@ -105,7 +105,7 @@
         font-style: normal;
         color: white;
         margin-top: 20%;
-        padding-left: 5%;
+        padding-left: 3%;
     }
 
     .hunteroverlap {
@@ -136,7 +136,7 @@
         color: white;
         margin-top: 80%;
         font-size: 2.5em;
-        padding-left: 5%;
+        padding-left: 3%;
     }
     #date2 {
         font-family: nimbus-sans-extended, sans-serif;
@@ -144,7 +144,7 @@
         font-style: normal;
         color: white;
         margin-top: -15%;
-        padding-left: 5%;
+        padding-left: 3%;
     }
     #info2 {
         font-family: nimbus-sans, sans-serif;
@@ -152,13 +152,13 @@
         font-style: normal;
         color: white;
         margin-top: 20%;
-        padding-left: 5%;
+        padding-left: 3%;
         
     }
     .pinkoverlap {
         display: grid;
         grid-template-columns: 1fr .5fr 1fr;
-        grid-template-rows: 40px 370px;
+        grid-template-rows: 40px 380px;
         width: 66vw;
         margin: auto;
         margin-top: 6%;
@@ -244,7 +244,7 @@
         font-weight: 300;
         font-style: normal;
         color: rgb(255, 251, 251);
-        margin-top: -10%;
+        margin-top: -9%;
         padding-left: 3%;
     }
     #info4 {
@@ -473,7 +473,7 @@
         display: grid;
         grid-template-columns: 1fr .3fr 1fr;
         grid-template-rows: 87px 320px;
-        width: 69vw;
+        width: 65vw;
         margin: auto;
         margin-top: 6%;
         height: 30vh;
@@ -634,7 +634,7 @@
 
     .blueoverlap{
         grid-template-columns: .25fr .85fr;
-        grid-template-rows: 10px 0px 352px;
+        grid-template-rows: 10px 0px 370px;
 
     }
 
@@ -651,7 +651,7 @@
         font-style: normal;
         color: white;
         margin-top: -25%;
-        padding-left: 5%;
+        padding-left: 3%;
     }
     .hunteroverlap{
         grid-template-columns: .55fr .75fr;
@@ -663,8 +663,12 @@
         grid-column-start: 2;
     }
     #title2 {
-        padding-top: -13;
+        padding-top: -1vw;
         margin-top: -10vw;
+        padding-left: 2vw;
+    }
+    #info2{
+        padding-left: 2vw;
     }
     #date2 {
         font-family: nimbus-sans-extended, sans-serif;
@@ -672,7 +676,7 @@
         font-style: normal;
         color: white;
         margin-top: -5vh;
-        padding-left: 5%;
+        padding-left: 6%;
     }
     .pinkoverlap{
         grid-template-columns: .55fr .75fr;
@@ -831,17 +835,21 @@
         grid-column-start: 2;
     }
     #title8 {
-        padding-top: -3vh;
-        margin-top: -10vw;
+        margin-top: -7vw;
+
     }
     #date8 {
         font-family: nimbus-sans-extended, sans-serif;
         font-weight: 300;
         font-style: normal;
         color: white;
-        margin-top: -16%;
-        padding-left: 5%;
+        margin-top: -22%;
+        padding-left: 3%;
     }
+
+#info8 {
+    padding-left: 1vw;
+}
     .smokeoverlap{
         grid-template-columns: .55fr 1fr;
         grid-template-rows: 10px 0px 290px;
@@ -860,8 +868,8 @@
         font-weight: 300;
         font-style: normal;
         color: white;
-        margin-top: -16%;
-        padding-left: 5%;
+        margin-top: -20%;
+        padding-left: 3%;
     }
 
     .threeimagesfive {

@@ -110,7 +110,7 @@
 
     .hunteroverlap {
         display: grid;
-        grid-template-columns: 1fr .5fr 1fr;
+        grid-template-columns: 1fr.7fr 1fr;
         grid-template-rows: 70px 550px;
         width: 60vw;
         margin: auto;
